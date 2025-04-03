@@ -1,0 +1,6 @@
+@SkillLeague.API_HostAddress = http://localhost:5023
+
+GET {{SkillLeague.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
