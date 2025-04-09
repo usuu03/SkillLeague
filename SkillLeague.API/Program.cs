@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using SkillLeague.Application.Queries;
 using SkillLeague.Persistence;
 
 // Sets up the App configuration
@@ -14,10 +15,17 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<AppDbContext>(opt => 
     opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+builder.Services.AddCors();
+
+builder.Services.AddMediatR(x => x.RegisterServicesFromAssemblyContaining<GetChallengeList.Handler>());
 
 // Builds the app
 var app = builder.Build();
+
+app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod()
+    .WithOrigins("http://localhost:3000","https://localhost:3000"));
+
+
 
 // Maps routes like /api/activites to controller methods.
 // similar to defining URLs in Django
