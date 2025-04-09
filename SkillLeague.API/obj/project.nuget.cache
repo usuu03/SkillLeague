@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Pmd0tilHQIA=",
+  "dgSpecHash": "goOd0uRaLxE=",
   "success": true,
   "projectFilePath": "/Users/User/Desktop/projects/SkillLeague/SkillLeague.API/SkillLeague.API.csproj",
   "expectedPackageFiles": [
+    "/Users/User/.nuget/packages/automapper/14.0.0/automapper.14.0.0.nupkg.sha512",
     "/Users/User/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/User/.nuget/packages/mediatr/12.5.0/mediatr.12.5.0.nupkg.sha512",
     "/Users/User/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",

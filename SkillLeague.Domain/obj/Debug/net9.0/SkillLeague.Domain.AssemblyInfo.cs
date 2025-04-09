@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkillLeague.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73dd93f79f33941eff161e683f1e1518d05b6cca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0219c937f378c2d9c5128334a0e148d310e2ec2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkillLeague.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkillLeague.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
